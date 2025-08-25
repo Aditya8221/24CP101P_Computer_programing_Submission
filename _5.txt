@@ -2,20 +2,24 @@
 #include<stdio.h>
 int main() {
 
-    float a = 21 , b = 8 ,sum,difference,product,qutiont;
+    float a,b,sum,difference,product,qutiont;
+    printf("Enter First Number =");
+    scanf("%f",&a);
+
+    printf("Enter Second Number =");
+    scanf("%f",&b);
 
     sum = a + b;
-    printf("The sum of 21 and 8 is :%f \n",sum);
+    printf("The sum of %f and %f is :%f \n",a,b,sum);
 
     difference = a - b;
-    printf("The difference of 21 and 8 is :%f \n",difference);
+    printf("The difference of %f and %f is :%f \n",a,b,difference);
 
     product = a * b;
-    printf("The product of 21 and 8 is :%f\n",product);
+    printf("The product of %f and %f is :%f\n",a,b,product);
 
     qutiont = a / b;
-    printf("The qutiont of 21 and 8 is :%f\n",qutiont);
-
+    printf("The qutiont of %f and %f is :%f\n",a,b,qutiont);
 
     return 0;
 }
